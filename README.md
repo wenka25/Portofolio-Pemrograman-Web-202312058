@@ -10,6 +10,7 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
   - Membuat struktur dokumen HTML
   - Formulir pendaftaran mahasiswa baru
   - Penggunaan elemen dasar HTML (heading, paragraf, list, tabel, dll.)
+  - Link : https://github.com/wenka25/Portofolio-Pemrograman-Web-202312058/tree/a427b0cc527bb2dc1b0833fe74d02910ae18f99f/Modul-1
 
 ### Modul 2: Pengenalan CSS
 
@@ -18,6 +19,7 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
   - Selector dan properti CSS
   - Box model dan layout
   - Responsive design dengan media queries
+  - Link : https://github.com/wenka25/Portofolio-Pemrograman-Web-202312058/tree/a427b0cc527bb2dc1b0833fe74d02910ae18f99f/Modul-2
 
 ### Modul 3: Bootstrap
 
@@ -26,6 +28,7 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
   - Sistem grid Bootstrap
   - Komponen UI Bootstrap (navbar, card, modal)
   - Membuat company profile responsive
+  - Link : https://github.com/wenka25/Portofolio-Pemrograman-Web-202312058/tree/a427b0cc527bb2dc1b0833fe74d02910ae18f99f/Modul-3
 
 ### Modul 4: JavaScript
 
@@ -34,6 +37,7 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
   - Event handling
   - Validasi form
   - Membuat mini e-commerce page
+  - Link : https://github.com/wenka25/Portofolio-Pemrograman-Web-202312058/tree/a427b0cc527bb2dc1b0833fe74d02910ae18f99f/Modul-4
 
 ### Modul 5: Dasar-dasar PHP
 
@@ -42,6 +46,7 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
   - Variabel dan tipe data
   - Struktur kontrol (if-else, loop)
   - Membuat buku tamu digital
+  - Link : https://github.com/wenka25/Portofolio-Pemrograman-Web-202312058/tree/a427b0cc527bb2dc1b0833fe74d02910ae18f99f/Modul-5
 
 ### Modul 6: PHP dan MySQL
 
@@ -50,6 +55,7 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
   - Koneksi PHP ke MySQL
   - Operasi CRUD (Create, Read, Update, Delete)
   - Aplikasi manajemen produk toko online
+  - Link : https://github.com/wenka25/Portofolio-Pemrograman-Web-202312058/tree/a427b0cc527bb2dc1b0833fe74d02910ae18f99f/Modul-6
 
 ### Modul 7: Git & GitHub
 
@@ -58,3 +64,4 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
   - Alur kerja Git (add, commit, push)
   - Branching dan merging
   - Kolaborasi dengan GitHub
+  - Link : https://github.com/wenka25/Portofolio-Pemrograman-Web-202312058.git
