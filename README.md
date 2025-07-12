@@ -53,7 +53,6 @@ Repositori ini berisi kumpulan tugas praktikum Pemrograman Web dari Modul 1 hing
 
 ### Modul 7: Git & GitHub
 
-- [Tugas](/Modul-7/)
   - Konsep version control
   - Alur kerja Git (add, commit, push)
   - Branching dan merging
