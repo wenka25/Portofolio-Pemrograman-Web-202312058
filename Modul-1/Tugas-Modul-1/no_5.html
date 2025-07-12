@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+<body style="background-color: #f2f2f2; margin: 20px; font-family: Arial, sans-serif;">
+
+  <!-- Logo Kampus -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <img src="logo_kampus.png" alt="Logo Kampus" width="120" height="120">
+  </div>
+
+  <!-- Judul Halaman -->
+  <h1 style="text-align: center;">Formulir Pendaftaran Mahasiswa Baru</h1>
+
+    <!-- Data Pribadi -->
+    <fieldset style="margin-bottom: 15px;">
+      <legend><strong>Data Pribadi</strong></legend>
+
+      <label for="nama">Nama Lengkap:</label><br>
+      <input type="text" id="nama" name="nama_lengkap" placeholder="Contoh: Andi Pratama" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Contoh: andi@email.com" required><br><br>
+
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" id="pria" name="jenis_kelamin" value="Pria" required>
+      <label for="pria">Pria</label><br>
+      <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" required>
+      <label for="wanita">Wanita</label><br>
+    </fieldset>
+
+    <!-- Hobi -->
+    <fieldset style="margin-bottom: 15px;">
+      <legend><strong>Hobi</strong></legend>
+      <input type="checkbox" id="membaca" name="hobi[]" value="Membaca">
+      <label for="membaca">Membaca</label><br>
+      <input type="checkbox" id="olahraga" name="hobi[]" value="Olahraga">
+      <label for="olahraga">Olahraga</label><br>
+      <input type="checkbox" id="musik" name="hobi[]" value="Musik">
+      <label for="musik">Musik</label><br>
+    </fieldset>
+
+    <!-- Jurusan & Alamat -->
+    <fieldset style="margin-bottom: 15px;">
+      <legend><strong>Jurusan & Alamat</strong></legend>
+
+      <label for="jurusan">Jurusan:</label><br>
+      <select id="jurusan" name="jurusan" required>
+        <option value="">-- Pilih Jurusan --</option>
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Manajemen">Manajemen</option>
+        <option value="Akuntansi">Akuntansi</option>
+      </select><br><br>
+
+      <label for="alamat">Alamat Lengkap:</label><br>
+      <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Contoh: Jl. Merdeka No. 123, Jakarta"></textarea><br>
+    </fieldset>
+
+    <!-- Tombol Kirim -->
+    <div style="text-align: center;">
+      <button type="submit" style="padding: 10px 20px; font-size: 16px;">Kirim</button>
+    </div>
+
+  <!-- Link ke Informasi Kampus -->
+  <div style="text-align: center; margin-top: 20px;">
+    <p>Untuk informasi lebih lanjut, kunjungi: <a href="https://www.stitek.ac.id" target="_blank">Informasi Kampus</a></p>
+  </div>
+
+</body>
+</html>

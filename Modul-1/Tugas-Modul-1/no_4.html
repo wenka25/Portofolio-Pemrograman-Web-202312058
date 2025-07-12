@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+<body>
+  <h1>Formulir Pendaftaran Mahasiswa Baru</h1>
+
+    <!-- Bagian: Data Pribadi -->
+    <fieldset>
+      <legend>Data Pribadi</legend>
+
+      <!-- Nama Lengkap -->
+      <label for="nama">Nama Lengkap:</label><br>
+      <input type="text" id="nama" name="nama_lengkap" placeholder="Contoh: Andi Pratama" required><br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Contoh: andi@email.com" required><br><br>
+
+      <!-- Jenis Kelamin -->
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" id="pria" name="jenis_kelamin" value="Pria" required>
+      <label for="pria">Pria</label><br>
+      <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" required>
+      <label for="wanita">Wanita</label><br>
+    </fieldset>
+
+    <br>
+
+    <!-- Bagian: Hobi -->
+    <fieldset>
+      <legend>Hobi</legend>
+
+      <!-- Checkbox Hobi -->
+      <input type="checkbox" id="membaca" name="hobi[]" value="Membaca">
+      <label for="membaca">Membaca</label><br>
+
+      <input type="checkbox" id="olahraga" name="hobi[]" value="Olahraga">
+      <label for="olahraga">Olahraga</label><br>
+
+      <input type="checkbox" id="musik" name="hobi[]" value="Musik">
+      <label for="musik">Musik</label><br>
+    </fieldset>
+
+    <br>
+
+    <!-- Bagian: Jurusan dan Alamat -->
+    <fieldset>
+      <legend>Jurusan & Alamat</legend>
+
+      <!-- Dropdown Jurusan -->
+      <label for="jurusan">Jurusan:</label><br>
+      <select id="jurusan" name="jurusan" required>
+        <option value="">-- Pilih Jurusan --</option>
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Manajemen">Manajemen</option>
+        <option value="Akuntansi">Akuntansi</option>
+      </select><br><br>
+
+      <!-- Textarea Alamat -->
+      <label for="alamat">Alamat Lengkap:</label><br>
+      <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Contoh: Jl. Merdeka No. 123, Jakarta"></textarea><br>
+    </fieldset>
+
+    <br>
+
+    <!-- Tombol Submit -->
+    <button type="submit">Kirim</button>
+
+  </form>
+</body>
+</html>

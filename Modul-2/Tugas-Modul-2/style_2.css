@@ -1,0 +1,43 @@
+body {
+    background-color: #add8e6; /* biru muda */
+    font-family: Arial, sans-serif; /* Arial atau sans-serif */
+    
+}
+
+h1 {
+    color: white; /* warna putih */
+    font-size: 40px; /* ukuran besar */
+}
+
+p {
+    background-color: #d3d3d3; /* abu-abu muda */
+    color: black; /* teks hitam */
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom sama besar */
+    gap: 20px; /* jarak antar kotak */
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+.container > div {
+    border: 2px solid black; /* border hitam tebal 2px */
+    padding: 10px;
+    height: 150px;
+}
+
+.box1 {
+    background-color: #ff9999; /* merah muda */
+}
+
+.box2 {
+    background-color: #99ff99; /* hijau muda */
+}
+
+.box3 {
+    background-color: #9999ff; /* biru muda */
+}

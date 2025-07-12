@@ -1,0 +1,15 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.card .btn:hover {
+  background-color: #0d6efd;
+  color: white;
+}

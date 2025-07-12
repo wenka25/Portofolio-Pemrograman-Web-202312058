@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+<body>
+  <h1>Formulir Pendaftaran Mahasiswa Baru</h1>
+
+    <!-- Nama Lengkap -->
+    <label for="nama">Nama Lengkap:</label><br>
+    <input type="text" id="nama" name="nama" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Jenis Kelamin -->
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" id="pria" name="jenis_kelamin" value="Pria" required>
+    <label for="pria">Pria</label><br>
+    <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" required>
+    <label for="wanita">Wanita</label><br><br>
+
+    <!-- Hobi -->
+    <label>Hobi:</label><br>
+    <input type="checkbox" id="membaca" name="hobi[]" value="Membaca">
+    <label for="membaca">Membaca</label><br>
+    <input type="checkbox" id="olahraga" name="hobi[]" value="Olahraga">
+    <label for="olahraga">Olahraga</label><br>
+    <input type="checkbox" id="musik" name="hobi[]" value="Musik">
+    <label for="musik">Musik</label><br><br>
+
+    <!-- Jurusan -->
+    <label for="jurusan">Jurusan:</label><br>
+    <select id="jurusan" name="jurusan" required>
+      <option value="">-- Pilih Jurusan --</option>
+      <option value="Teknik Informatika">Teknik Informatika</option>
+      <option value="Manajemen">Manajemen</option>
+      <option value="Akuntansi">Akuntansi</option>
+    </select><br><br>
+
+    <!-- Alamat -->
+    <label for="alamat">Alamat Lengkap:</label><br>
+    <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Opsional"></textarea><br><br>
+
+    <!-- Tombol Submit -->
+    <button type="submit">Kirim</button>
+  </form>
+
+</body>
+</html>
