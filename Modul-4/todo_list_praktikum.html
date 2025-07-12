@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aplikasi To-Do List</title>
+    <style>
+      li {
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+      }
+      .delete-btn {
+        margin-left: 10px;
+        color: white;
+        background-color: #ff4444;
+        border: none;
+        border-radius: 3px;
+        padding: 2px 6px;
+        cursor: pointer;
+      }
+      .delete-btn:hover {
+        background-color: #cc0000;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>To-Do List Sederhana</h2>
+    <input type="text" id="input-todo" placeholder="Ketik tugas baru..." />
+    <button onclick="tambahTugas()">Tambah</button>
+    <ul id="daftar-tugas"></ul>
+
+    <script>
+      var tugas = [];
+
+      function tambahTugas() {
+        var inputElement = document.getElementById("input-todo");
+        var taskText = inputElement.value.trim();
+
+        if (taskText !== "") {
+          tugas.push(taskText);
+          inputElement.value = "";
+          tampilkanDaftar();
+        }
+      }
+
+      function tampilkanDaftar() {
+        var daftarElement = document.getElementById("daftar-tugas");
+        daftarElement.innerHTML = "";
+
+        tugas.forEach(function (task, index) {
+          var li = document.createElement("li");
+          li.innerHTML = `
+          ${task}
+          <button class="delete-btn" onclick="hapusTugas(${index})">Hapus</button>
+        `;
+          daftarElement.appendChild(li);
+        });
+      }
+
+      function hapusTugas(index) {
+        tugas.splice(index, 1); // Menghapus 1 item dari array mulai dari index
+        tampilkanDaftar(); // Memperbarui tampilan
+      }
+    </script>
+  </body>
+</html>
